@@ -44,6 +44,5 @@ public class Org_signin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

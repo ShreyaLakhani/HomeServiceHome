@@ -37,7 +37,7 @@
     <string name="room">ROOM</string>
     <string name="balcony">BALCONY</string>
     <string name="wiring">WIRING</string>
-    <string name="swich_socket">SWICH \n SOCKET</string>
+    <string name="swich_socket">SWITCH \n SOCKET</string>
     <string name="light">LIGHT</string>
     <string name="fan">FAN</string>
     <string name="landscape_design">LANDSCAPE DESIGN</string>
@@ -67,6 +67,13 @@
     <string name="room_cleaning">Room cleaning</string>
     <string name="kitchen_cleaning">Kitchen cleaning</string>
     <string name="user_state">User State</string>
+    <string name="organization_cleaning">Organization \n Cleaning</string>
+    <string name="organization_plumbing">Organization \n Plumbing</string>
+    <string name="organization_electricity">Organization \n Electricity</string>
+    <string name="organization_gardening">Organization \n Gardening</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="city_state">City, State</string>
+    <string name="organization_dashboard">Organization Dashboard</string>
 
 
 </resources>

@@ -13,6 +13,20 @@
         android:theme="@style/Theme.HomeServiceHome"
         tools:targetApi="31">
         <activity
+            android:name=".Clnt_forgot_password"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Org_forgot_password"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".sub_kitchen"
             android:exported="false">
             <meta-data

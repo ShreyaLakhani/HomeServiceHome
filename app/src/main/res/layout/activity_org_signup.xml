@@ -78,7 +78,7 @@
         android:layout_marginTop="15dp"
         android:drawableStart="@drawable/service"
         android:drawablePadding="10dp"
-        android:hint="@string/service_type"
+        android:hint="@string/servicetype"
         android:importantForAutofill="no"
         android:inputType="text"
         android:paddingStart="15dp"

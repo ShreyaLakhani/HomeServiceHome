@@ -17,7 +17,7 @@ public class Org_signin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_org_signin);
 
-        signin = findViewById(R.id.nextbtn);
+        signin = findViewById(R.id.signinbtn);
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

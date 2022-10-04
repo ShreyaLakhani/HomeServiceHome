@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clnt_dashboard"
+    android:orientation="vertical"
+    android:background="#D6EAFA">
+
+    <TextView
+        android:id="@+id/clntdashboardtxt"
+        android:layout_width="298dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:shadowColor="#7FA8C8"
+        android:shadowDx="3"
+        android:shadowDy="7"
+        android:shadowRadius="12"
+        android:text="@string/user_dashboard"
+        android:textAlignment="center"
+        android:textColor="#053860"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Cleaning_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/whitedisplay"
+        android:fontFamily="sans-serif"
+        android:text="@string/cleaning"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Electricity_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/electricity"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/whitedisplay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Plumbing_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/plumbing"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/whitedisplay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Gardening_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/whitedisplay"
+        android:fontFamily="sans-serif"
+        android:text="@string/gardening"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

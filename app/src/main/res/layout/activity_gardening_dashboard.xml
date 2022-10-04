@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gardening_dashboard"
+    android:orientation="vertical"
+    android:background="#D6EAFA">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/gardeningdashboardtxt"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/purple_500"
+        android:textColor="#D6EAFA"
+        android:paddingTop="5dp"
+        android:fontFamily="sans-serif"
+        android:shadowColor="#7FA8C8"
+        android:shadowDx="3"
+        android:shadowDy="7"
+        android:shadowRadius="12"
+        android:text="@string/gardening"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Pond_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/whitedisplay"
+        android:fontFamily="sans-serif"
+        android:text="@string/pond_installation"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Lawn_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/lawn"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/whitedisplay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Pruning_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/pruning_trimming"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/whitedisplay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Landscape_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/whitedisplay"
+        android:fontFamily="sans-serif"
+        android:text="@string/landscape_design"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

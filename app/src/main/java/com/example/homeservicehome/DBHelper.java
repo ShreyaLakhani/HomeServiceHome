@@ -15,10 +15,19 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String query = "create table services\n" +
+        /*String query = "create table service\n" +
                 "(\n" +
-                "\tservice_id int PRIMARY KEY AUTOINCREMENT,\n" +
+                "\tservice_id int PRIMARY KEY,\n" +
                 "\tservice_name text\n" +
+                ");";*/
+
+        String query = "create table subservice\n" +
+                "(\n" +
+                "\tsub_id int PRIMARY KEY,\n" +
+                "\tsub_name text,\n" +
+                "\tsub_rate float,\n" +
+                "\tservice_id int,\n" +
+                "\tCONSTRAINT fk_serviceid FOREIGN KEY(service_id) REFERENCES service(service_id)\n" +
                 ");";
 
         db.execSQL(query);

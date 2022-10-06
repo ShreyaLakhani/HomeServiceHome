@@ -74,6 +74,9 @@
     <string name="reset_password">Reset Password</string>
     <string name="city_state">City, State</string>
     <string name="organization_dashboard">Organization Dashboard</string>
+    <string name="fan_repairing">Fan Repairing</string>
+    <string name="lights_repairing">Lights Repairing</string>
+    <string name="switch_repairing">Switch Repairing</string>
 
 
 </resources>

@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Org_dashboard">
+    tools:context=".Org_dashboard"
+    android:orientation="vertical"
+    android:background="#D6EAFA">
 
     <TextView
-        android:id="@+id/clntdashboardtxt"
+        android:id="@+id/orgdashboardtxt"
         android:layout_width="298dp"
         android:layout_height="51dp"
         android:fontFamily="@font/berkshire_swash"
@@ -15,7 +17,7 @@
         android:shadowDx="3"
         android:shadowDy="7"
         android:shadowRadius="12"
-        android:text="@string/user_dashboard"
+        android:text="@string/organization_dashboard"
         android:textAlignment="center"
         android:textColor="#053860"
         android:textSize="27sp"
@@ -27,12 +29,12 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Cleaning_btn"
+        android:id="@+id/orgcleaning_btn"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:background="@drawable/whitedisplay"
         android:fontFamily="sans-serif"
-        android:text="@string/cleaning"
+        android:text="@string/organization_cleaning"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="17sp"
@@ -44,10 +46,10 @@
         app:layout_constraintVertical_bias="0.332" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Electricity_btn"
+        android:id="@+id/orgelectricity_btn"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:text="@string/electricity"
+        android:text="@string/organization_electricity"
         android:fontFamily="sans-serif"
         android:textSize="17sp"
         android:textAlignment="center"
@@ -61,10 +63,10 @@
         app:layout_constraintVertical_bias="0.702" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Plumbing_btn"
+        android:id="@+id/orgplumbing_btn"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:text="@string/plumbing"
+        android:text="@string/organization_plumbing"
         android:fontFamily="sans-serif"
         android:textSize="17sp"
         android:textAlignment="center"
@@ -78,12 +80,12 @@
         app:layout_constraintVertical_bias="0.702" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Gardening_btn"
+        android:id="@+id/orggardening_btn"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:background="@drawable/whitedisplay"
         android:fontFamily="sans-serif"
-        android:text="@string/gardening"
+        android:text="@string/organization_gardening"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="17sp"

@@ -26,6 +26,16 @@ public class Org_signin extends AppCompatActivity {
             }
         });
 
+        forgot = findViewById(R.id.orgfp);
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Org_signin.this,Org_forgot_password.class);
+                startActivity(intent);
+            }
+
+        });
+
         createacc = findViewById(R.id.createaccount);
         createacc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +44,5 @@ public class Org_signin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

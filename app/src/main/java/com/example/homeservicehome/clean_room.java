@@ -7,21 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class sub_bathroom extends AppCompatActivity {
-    Button add;
+public class clean_room extends AppCompatActivity {
+    Button r_add;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_bathroom);
+        setContentView(R.layout.activity_clean_room);
 
-        add = findViewById(R.id.bathroom_cart);
-        add.setOnClickListener(new View.OnClickListener() {
+        r_add = findViewById(R.id.room_cart);
+        r_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(sub_bathroom.this,Finalcart.class);
+                Intent intent = new Intent(clean_room.this,Finalcart.class);
                 startActivity(intent);
             }
         });
+
+
     }
 }

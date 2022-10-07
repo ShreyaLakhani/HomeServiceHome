@@ -9,7 +9,7 @@
     android:background="#D6EAFA">
 
     <ImageView
-        android:id="@+id/balcony_img"
+        android:id="@+id/lawn_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginTop="60dp"
@@ -20,18 +20,17 @@
         app:srcCompat="@drawable/lawn_image" />
 
     <TextView
-        android:id="@+id/balconycleaningtxt"
+        android:id="@+id/lawntxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="76dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/balcony_cleaning"
-        android:textAlignment="center"
+        android:text="@string/lawn"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toEndOf="@+id/lawn_img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -45,8 +44,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.165"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
-        app:layout_constraintTop_toBottomOf="@+id/balconycleaningtxt" />
+        app:layout_constraintStart_toEndOf="@+id/lawn_img"
+        app:layout_constraintTop_toBottomOf="@+id/lawntxt" />
 
     <TextView
         android:id="@+id/textView3"
@@ -59,17 +58,17 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintStart_toEndOf="@+id/lawn_img"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/balcony_cart"
+        android:id="@+id/lawn_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintStart_toEndOf="@+id/lawn_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 

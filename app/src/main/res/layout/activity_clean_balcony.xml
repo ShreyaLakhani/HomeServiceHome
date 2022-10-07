@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sub_kitchen"
+    tools:context=".clean_balcony"
     android:orientation="vertical"
     android:background="#D6EAFA">
 
     <ImageView
-        android:id="@+id/kitchen_img"
+        android:id="@+id/balcony_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginTop="60dp"
@@ -17,21 +17,21 @@
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kitchen_image" />
+        app:srcCompat="@drawable/balcony_image" />
 
     <TextView
-        android:id="@+id/kitchencleaningtxt"
+        android:id="@+id/balconycleaningtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
         android:layout_marginTop="72dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/kitchen_cleaning"
+        android:text="@string/balcony_cleaning"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
+        app:layout_constraintStart_toEndOf="@+id/balcony_img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -39,43 +39,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_599"
+        android:text="@string/price_299"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.165"
-        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
-        app:layout_constraintTop_toBottomOf="@+id/kitchencleaningtxt" />
+        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintTop_toBottomOf="@+id/balconycleaningtxt" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/_120mins"
+        android:text="@string/_60mins"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
+        app:layout_constraintStart_toEndOf="@+id/balcony_img"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/kitchen_cart"
+        android:id="@+id/balcony_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
-        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
+        app:layout_constraintStart_toEndOf="@+id/balcony_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:layout_width="335dp"
-        android:layout_height="151dp"
-        android:text="@string/point4"
+        android:layout_width="322dp"
+        android:layout_height="152dp"
+        android:text="@string/point2"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kitchen_img"
+        app:layout_constraintTop_toBottomOf="@+id/balcony_img"
         app:layout_constraintVertical_bias="0.153" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

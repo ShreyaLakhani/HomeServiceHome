@@ -60,13 +60,14 @@ public class Clnt_signin extends AppCompatActivity {
 
     private void signInClient() {
         DBHelper helper = new DBHelper(Clnt_signin.this, DBHelper.DBNAME, null, 1);
-        SQLiteDatabase db = helper.getWritableDatabase();
+        SQLiteDatabase db = helper.getReadableDatabase();
         Cursor records = db.rawQuery("select client_email, client_password from client where client_email='"+clntmail.getText().toString()+"' and client_password='"+clntpassword.getText().toString()+"'", null);
 
         if (records.getCount() >= 1) {
             Toast.makeText(Clnt_signin.this, "Sign-In Successful", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(Clnt_signin.this,Clnt_dashboard.class);
             startActivity(intent);
+            finish();
         }
         else
             Toast.makeText(Clnt_signin.this, "Invalid Credentials", Toast.LENGTH_LONG).show();

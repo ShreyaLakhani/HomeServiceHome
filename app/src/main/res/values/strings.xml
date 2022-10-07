@@ -9,10 +9,10 @@
     <string name="organisation_email">Organisation email</string>
     <string name="servicetype">Service type</string>
     <string-array name="Services">
-        <item>Cleaning </item>
-        <item>Plumbing </item>
-        <item>Electricity </item>
-        <item>Gardening </item>
+        <item>Cleaning</item>
+        <item>Gardening</item>
+        <item>Plumbing</item>
+        <item>Electricity</item>
     </string-array>
     <string name="enter_password">Enter password</string>
     <string name="confirm_password">Confirm password</string>

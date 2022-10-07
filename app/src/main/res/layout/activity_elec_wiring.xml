@@ -17,20 +17,20 @@
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo"
         app:srcCompat="@drawable/wire_image" />
 
     <TextView
         android:id="@+id/wirerepairingtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/balcony_cleaning"
-        android:textAlignment="center"
+        android:text="@string/Wiring"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toEndOf="@+id/wire_image"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_299"
+        android:text="@string/price_99"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/balcony_cart"
+        android:id="@+id/wiring_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
@@ -71,5 +71,19 @@
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/wire_image"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textwire"
+        android:layout_width="322dp"
+        android:layout_height="146dp"
+        android:text="@string/point8"
+        android:textAlignment="gravity"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="265dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

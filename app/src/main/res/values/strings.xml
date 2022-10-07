@@ -53,15 +53,26 @@
     <string name="heater">HEATER</string>
     <string name="bathroom_cleaning">Bathroom Cleaning</string>
     <string name="price_399">Price: ₹ 399</string>
+    <string name="price_99">Price: ₹ 99</string>
     <string name="price_299">Price: ₹ 299</string>
     <string name="price_599">Price: ₹ 599</string>
+    <string name="price_109">Price: ₹ 109</string>
+    <string name="price_130">Price: ₹ 130</string>
+    <string name="price_149">Price: ₹ 149</string>
     <string name="_60mins">• 60mins</string>
+    <string name="_30mins">• 30mins</string>
     <string name="_120mins">• 120mins</string>
     <string name="add">Add</string>
     <string name="point1">• Remove objects before cleaning \n• Cleaning of all areas and surfaces.</string>
     <string name="point2">• Floor cleaning \n• Door and window cleaning</string>
     <string name="point3">• Dusting and Mopping \n• Living room and bed room cleaning</string>
     <string name="point4">• Kitchen sink cleaning \n• Utensils cleaning \n• Gas stove cleaning \n• Oil and other stand cleaning</string>
+    <string name="point5">• Kitchen sink cleaning \n• Utensils cleaning \n• Gas stove cleaning \n• Oil and other stand cleaning</string>
+    <string name="point6">• Installation of bulb or bulb holder \n• Installation or repair of tubelight  \n  and celling light. \n• Festive light includes wiring \n  connectivity and clipping. \n• Price based on length of light strips.</string>
+    <string name="point7">• Installation of AC switch box,\n  washing machine switch box  \n• Replacement of one box/socket/\n  combination unit  </string>
+    <string name="point8">• Spare parts and wires are \n  produced at an additional cost   \n• Wiring without outer casting for a \n  single connection. </string>
+    <string name="point9">• Installation of one connection \n  hose to connect intel and outlet \n• Replacement of pipe \n• Washing machine installation. </string>
+    <string name="point10">• Blockage removal of washbasin \n  and water pipe. \n• Installation of all kinds of \n  washbasin. \n• Flush repare and button \n  replacement. \n• Installation of toilet. \n• Repair Toilet </string>
     <string name="final_cart">Final Cart</string>
     <string name="balcony_cleaning">Balcony cleaning</string>
     <string name="room_cleaning">Room cleaning</string>
@@ -83,6 +94,11 @@
     <string name="heater_repairing">Heater Repairing</string>
     <string name="motor_repairing">Motor Repairing</string>
     <string name="sink_repairing">Sink Repairing</string>
+    <string name="pipe_repairing">Pipe Repairing</string>
+    <string name="Wiring">Wiring</string>
+    <string name="_40mins">_40mins</string>
+    <string name="sink_and_toliet">Sink and Toliet</string>
+    <string name="switch_and_socket">Switch and Socket</string>
 
 
 </resources>

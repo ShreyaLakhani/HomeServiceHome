@@ -4,34 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sub_balcony"
+    tools:context=".clean_bathroom"
     android:orientation="vertical"
     android:background="#D6EAFA">
 
     <ImageView
-        android:id="@+id/balcony_img"
+        android:id="@+id/bathroom_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/balcony_image" />
+        app:srcCompat="@drawable/bathroom_image" />
 
     <TextView
-        android:id="@+id/balconycleaningtxt"
+        android:id="@+id/bathroomcleaningtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
         android:layout_marginTop="72dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/balcony_cleaning"
+        android:text="@string/bathroom_cleaning"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintStart_toEndOf="@+id/bathroom_img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -39,14 +39,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_299"
+        android:text="@string/price_399"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
-        app:layout_constraintTop_toBottomOf="@+id/balconycleaningtxt" />
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toEndOf="@+id/bathroom_img"
+        app:layout_constraintTop_toBottomOf="@+id/bathroomcleaningtxt" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,24 +58,24 @@
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toEndOf="@+id/bathroom_img"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/balcony_cart"
+        android:id="@+id/bathroom_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
-        app:layout_constraintStart_toEndOf="@+id/balcony_img"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toEndOf="@+id/bathroom_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:layout_width="322dp"
-        android:layout_height="152dp"
-        android:text="@string/point2"
+        android:layout_height="146dp"
+        android:text="@string/point1"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -83,7 +83,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/balcony_img"
+        app:layout_constraintTop_toBottomOf="@+id/bathroom_img"
         app:layout_constraintVertical_bias="0.153" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

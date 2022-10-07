@@ -20,7 +20,7 @@ public class Cleaning_dashboard extends AppCompatActivity {
         bathroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Cleaning_dashboard.this,sub_bathroom.class);
+                Intent intent = new Intent(Cleaning_dashboard.this, clean_bathroom.class);
                 startActivity(intent);
             }
         });
@@ -29,7 +29,7 @@ public class Cleaning_dashboard extends AppCompatActivity {
         balcony.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Cleaning_dashboard.this,sub_balcony.class);
+                Intent intent = new Intent(Cleaning_dashboard.this, clean_balcony.class);
                 startActivity(intent);
             }
         });
@@ -37,7 +37,7 @@ public class Cleaning_dashboard extends AppCompatActivity {
         room.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Cleaning_dashboard.this,sub_room.class);
+                Intent intent = new Intent(Cleaning_dashboard.this, clean_room.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +46,7 @@ public class Cleaning_dashboard extends AppCompatActivity {
         kitchen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Cleaning_dashboard.this,sub_kitchen.class);
+                Intent intent = new Intent(Cleaning_dashboard.this, clean_kitchen.class);
                 startActivity(intent);
             }
         });

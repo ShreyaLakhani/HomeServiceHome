@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sub_room"
+    tools:context=".clean_kitchen"
     android:orientation="vertical"
     android:background="#D6EAFA">
 
     <ImageView
-        android:id="@+id/room_img"
+        android:id="@+id/kitchen_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginTop="60dp"
@@ -17,21 +17,21 @@
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/room_image" />
+        app:srcCompat="@drawable/kitchen_image" />
 
     <TextView
-        android:id="@+id/roomcleaningtxt"
+        android:id="@+id/kitchencleaningtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="72dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/room_cleaning"
+        android:text="@string/kitchen_cleaning"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/room_img"
+        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -39,14 +39,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_399"
+        android:text="@string/price_599"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.248"
-        app:layout_constraintStart_toEndOf="@+id/room_img"
-        app:layout_constraintTop_toBottomOf="@+id/roomcleaningtxt" />
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
+        app:layout_constraintTop_toBottomOf="@+id/kitchencleaningtxt" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,26 +58,24 @@
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toEndOf="@+id/room_img"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/room_cart"
+    <Button
+        android:id="@+id/kitchen_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"
-        android:background="@color/purple_500"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
-        app:layout_constraintStart_toEndOf="@+id/room_img"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toEndOf="@+id/kitchen_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:layout_width="329dp"
-        android:layout_height="144dp"
-        android:text="@string/point3"
+        android:layout_width="335dp"
+        android:layout_height="151dp"
+        android:text="@string/point4"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -85,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/room_img"
+        app:layout_constraintTop_toBottomOf="@+id/kitchen_img"
         app:layout_constraintVertical_bias="0.153" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

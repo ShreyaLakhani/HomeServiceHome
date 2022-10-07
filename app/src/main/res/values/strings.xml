@@ -77,6 +77,12 @@
     <string name="fan_repairing">Fan Repairing</string>
     <string name="lights_repairing">Lights Repairing</string>
     <string name="switch_repairing">Switch Repairing</string>
+    <string name="todo1">TODO</string>
+    <string name="purning_trimming">Purning/ Trimming</string>
+    <string name="todo2">TODO</string>
+    <string name="heater_repairing">Heater Repairing</string>
+    <string name="motor_repairing">Motor Repairing</string>
+    <string name="sink_repairing">Sink Repairing</string>
 
 
 </resources>

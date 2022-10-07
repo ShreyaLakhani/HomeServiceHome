@@ -124,21 +124,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".sub_kitchen"
+            android:name=".clean_kitchen"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".sub_room"
+            android:name=".clean_room"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".sub_balcony"
+            android:name=".clean_balcony"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -152,7 +152,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".sub_bathroom"
+            android:name=".clean_bathroom"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

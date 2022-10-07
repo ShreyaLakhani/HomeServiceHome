@@ -58,41 +58,35 @@
         app:layout_constraintTop_toBottomOf="@+id/orgname"
         tools:ignore="RtlSymmetry,TextContrastCheck" />
 
-    <Spinner
-        android:id="@+id/spinnerservices"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toBottomOf="@+id/orgservice"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.845"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/orgservice"
-        app:layout_constraintVertical_bias="0.538"
-        android:entries="@array/Services"/>
-
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/orgservice"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
-        android:drawableStart="@drawable/service"
-        android:drawablePadding="10dp"
-        android:hint="@string/servicetype"
-        android:importantForAutofill="no"
-        android:inputType="text"
-        android:paddingStart="15dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/service"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.162"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orgmail"
         tools:ignore="RtlSymmetry,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <Spinner
+        android:id="@+id/spinnerservices"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:entries="@array/Services"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/orgmail" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/orgphone"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/phone"
         android:drawablePadding="10dp"
         android:hint="@string/organisation_contact"
@@ -102,7 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/orgservice"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerservices"
         tools:ignore="RtlSymmetry,TextContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatEditText

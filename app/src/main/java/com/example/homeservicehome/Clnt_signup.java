@@ -35,7 +35,8 @@ public class Clnt_signup extends AppCompatActivity {
                 if (clntname.getText().toString().equals("") || clntmail.getText().toString().equals("") ||
                         clntadd.getText().toString().equals("") || clntstate.getText().toString().equals("") ||
                         clntphone.getText().toString().equals("") || clntpassword.getText().toString().equals("") ||
-                        clntconfirmpassword.getText().toString().equals("")) {
+                        clntconfirmpassword.getText().toString().equals(""))
+                {
                     Toast.makeText(Clnt_signup.this, "Please Fill All Details", Toast.LENGTH_LONG).show();
                 }
                 else {
@@ -65,6 +66,7 @@ public class Clnt_signup extends AppCompatActivity {
             Toast.makeText(Clnt_signup.this, "Sign-Up Successful", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(Clnt_signup.this,Clnt_signin.class);
             startActivity(intent);
+            finish();
         }
         else
             Toast.makeText(Clnt_signup.this, "Error", Toast.LENGTH_LONG).show();

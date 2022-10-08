@@ -25,14 +25,13 @@
         android:id="@+id/heatertxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="88dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/heater_repairing"
+        android:text="Heater"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toEndOf="@+id/heater_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,5 +72,17 @@
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/heater_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <TextView
+        android:id="@+id/textpipe"
+        android:layout_width="322dp"
+        android:layout_height="146dp"
+        android:text="@string/point12"
+        android:textAlignment="gravity"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="265dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,7 @@
         android:layout_height="27dp"
         android:layout_marginTop="76dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/lawn"
+        android:text="@string/lawn_maintenance"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_299"
+        android:text="@string/price_10"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -70,6 +70,18 @@
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/lawn_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <TextView
+        android:id="@+id/textsocket"
+        android:layout_width="322dp"
+        android:layout_height="146dp"
+        android:text="@string/point14"
+        android:textAlignment="gravity"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="265dp" />
 
 
 

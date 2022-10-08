@@ -24,7 +24,7 @@
         android:id="@+id/balconycleaningtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/purning_trimming"
         android:textAlignment="center"
@@ -40,12 +40,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/price_299"
+        android:text="@string/price_399"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toEndOf="@+id/trim_img"
         app:layout_constraintTop_toBottomOf="@+id/balconycleaningtxt" />
 
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/_60mins"
+        android:text="@string/_120mins"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
@@ -72,5 +72,17 @@
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/trim_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <TextView
+        android:id="@+id/textsocket"
+        android:layout_width="322dp"
+        android:layout_height="146dp"
+        android:text="@string/point16"
+        android:textAlignment="gravity"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="265dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

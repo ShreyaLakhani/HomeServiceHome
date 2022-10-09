@@ -108,14 +108,13 @@
     <string name="sink_repairing">Sink Repairing</string>
     <string name="pipe_repairing">Pipe Repairing</string>
     <string name="Wiring">Wiring</string>
-    <string name="_40mins">_40mins</string>
     <string name="sink_and_toliet">Sink and Toliet</string>
     <string name="switch_and_socket">Switch and Socket</string>
     <string name="Water_Pipe">Water Pipe</string>
-    <string name="Price_449">price_449</string>
     <string name="Motor">Motor</string>
     <string name="lawn_maintainance">Lawn Maintainance</string>
     <string name="lawn_maintenance">Lawn Maintenance</string>
+    <string name="view_cart">View Cart</string>
 
 
 </resources>

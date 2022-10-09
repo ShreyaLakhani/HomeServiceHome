@@ -13,6 +13,7 @@
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,17 +72,52 @@
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toEndOf="@+id/land_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
     <TextView
         android:id="@+id/textsocket"
         android:layout_width="322dp"
         android:layout_height="146dp"
+        android:layout_marginBottom="284dp"
         android:text="@string/point13"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/viewcart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp" />
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/viewcart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="10dp"
+        android:text="@string/view_cart"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/viewcart"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="@+id/viewcart"
+        app:layout_constraintTop_toTopOf="@+id/viewcart"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

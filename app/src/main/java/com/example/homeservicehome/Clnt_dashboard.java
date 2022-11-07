@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -14,6 +15,7 @@ public class Clnt_dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clnt_dashboard);
+
         clean = findViewById(R.id.Cleaning_btn);
         clean.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,4 +51,10 @@ public class Clnt_dashboard extends AppCompatActivity {
             }
         });
     }
+
+    /*@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_action, menu);
+        return super.onCreateOptionsMenu(menu);
+    }*/
 }

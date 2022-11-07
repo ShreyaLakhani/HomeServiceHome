@@ -15,7 +15,6 @@ public class Cleaning_dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cleaning_dashboard);
 
-
         bathroom = findViewById(R.id.Bathroom_btn);
         bathroom.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +32,7 @@ public class Cleaning_dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         room = findViewById(R.id.Room_btn);
         room.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,7 +50,5 @@ public class Cleaning_dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 }

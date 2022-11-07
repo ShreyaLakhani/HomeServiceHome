@@ -65,12 +65,13 @@ public class DBHelper extends SQLiteOpenHelper {
                 "\torder_id integer PRIMARY KEY AUTOINCREMENT,\n" +
                 "\tclient_id int,\n" +
                 "\tservice_id int,\n" +
-                "\torg_id int,\n" +
+                "\tsub_id int,\n" +
                 "\torder_date text,\n" +
                 "\torder_time text,\n" +
+                "\tstatus int,\n" +
                 "\tCONSTRAINT fk_clientid FOREIGN KEY(client_id) REFERENCES client(client_id),\n" +
                 "\tCONSTRAINT fk_serviceid FOREIGN KEY(service_id) REFERENCES service(service_id),\n" +
-                "\tCONSTRAINT fk_orgid FOREIGN KEY(org_id) REFERENCES organization(org_id)\n" +
+                "\tCONSTRAINT fk_subid FOREIGN KEY(sub_id) REFERENCES subservice(sub_id)\n" +
                 ");";
 
         db.execSQL(query4);
@@ -87,6 +88,8 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    public void onUpgrade(SQLiteDatabase db, int i, int i1) {
+        String str1 = "drop table if exists orders";
+        db.execSQL(str1);
     }
 }

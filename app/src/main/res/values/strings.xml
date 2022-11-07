@@ -86,9 +86,9 @@
     <string name="point15">• Power washing and vacuuming \n  pond interiors. \n• Cleaning filter systems. \n• Re-filling ponds to safe water level \n  for fish aquatic plants.</string>
     <string name="point16">• Remove dead leaves, shape the \n  tree. \n• Cleaning land. \n• Also provide the terrace \n  gardening.</string>
     <string name="final_cart">Final Cart</string>
-    <string name="balcony_cleaning">Balcony cleaning</string>
-    <string name="room_cleaning">Room cleaning</string>
-    <string name="kitchen_cleaning">Kitchen cleaning</string>
+    <string name="balcony_cleaning">Balcony Cleaning</string>
+    <string name="room_cleaning">Room Cleaning</string>
+    <string name="kitchen_cleaning">Kitchen Cleaning</string>
     <string name="user_state">User State</string>
     <string name="organization_cleaning">Organization \n Cleaning</string>
     <string name="organization_plumbing">Organization \n Plumbing</string>
@@ -119,6 +119,7 @@
     <string name="pick_a_time">Pick a time</string>
     <string name="total_services">Total services</string>
     <string name="estimated_amount">Estimated amount</string>
+    <string name="opted_services">Opted Services</string>
 
 
 </resources>

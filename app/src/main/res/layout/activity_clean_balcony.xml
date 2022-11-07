@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/balconycleaningheading"
         android:layout_width="match_parent"
-        android:layout_height="51dp"
+        android:layout_height="50dp"
         android:background="@color/purple_500"
         android:fontFamily="sans-serif"
         android:paddingTop="5dp"

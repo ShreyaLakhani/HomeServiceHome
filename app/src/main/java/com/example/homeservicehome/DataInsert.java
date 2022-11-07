@@ -67,14 +67,29 @@ public class DataInsert extends AppCompatActivity {
         SQLiteDatabase db = helper.getWritableDatabase();
         ContentValues values = new ContentValues();
 
-//        values.put("sub_id", 5);
-//        values.put("sub_name", "Pond Installation");
+//        values.put("sub_id", 1);
+//        values.put("sub_name", "Bathroom");
+//        values.put("sub_rate", 399);
+//        values.put("service_id", 1);
+
+//        values.put("sub_id", 2);
+//        values.put("sub_name", "Balcony");
+//        values.put("sub_rate", 299);
+//        values.put("service_id", 1);
+
+//        values.put("sub_id", 3);
+//        values.put("sub_name", "Room");
+//        values.put("sub_rate", 399);
+//        values.put("service_id", 1);
+
+//        values.put("sub_id", 4);
+//        values.put("sub_name", "Kitchen");
 //        values.put("sub_rate", 599);
 //        values.put("service_id", 1);
 
         long status = db.insert("subservice", null, values);
         if (status >= 0)
-            Toast.makeText(DataInsert.this, "5 Record Inserted", Toast.LENGTH_LONG).show();
+            Toast.makeText(DataInsert.this, "4 Record Inserted", Toast.LENGTH_LONG).show();
         else
             Toast.makeText(DataInsert.this, "Error", Toast.LENGTH_LONG).show();
     }

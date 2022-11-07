@@ -40,11 +40,11 @@
     <string name="swich_socket">SWITCH \n SOCKET</string>
     <string name="light">LIGHT</string>
     <string name="fan">FAN</string>
-    <string name="landscape_design">LANDSCAPE DESIGN</string>
+    <string name="landscape_design">Landscape Design</string>
     <string name="pruning">PRUNING</string>
     <string name="lawn_aerater">LAWN AERATER</string>
     <string name="lawn">LAWN</string>
-    <string name="pond_installation">POND INSTALLATION</string>
+    <string name="pond_installation">Pond Installation</string>
     <string name="pruning_trimming"><![CDATA[PRUNING & TRIMMING]]></string>
     <string name="water_pipe">WATER PIPE</string>
     <string name="motor">MOTOR</string>
@@ -120,6 +120,10 @@
     <string name="total_services">Total services</string>
     <string name="estimated_amount">Estimated amount</string>
     <string name="opted_services">Opted Services</string>
+    <string name="wire_repairing">Wire Repairing</string>
+    <string name="landscape_designing">Landscape Designing</string>
+    <string name="purning_trimmin"><![CDATA[Purning & Trimming]]></string>
+    <string name="water_pipe_repairing">Water Pipe Repairing</string>
 
 
 </resources>

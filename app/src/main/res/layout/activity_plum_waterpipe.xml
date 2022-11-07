@@ -8,6 +8,29 @@
     android:orientation="vertical"
     android:background="#D6EAFA">
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/waterpiperepairingheading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:fontFamily="sans-serif"
+        android:paddingTop="5dp"
+        android:shadowColor="#7FA8C8"
+        android:shadowDx="3"
+        android:shadowDy="7"
+        android:shadowRadius="12"
+        android:text="@string/water_pipe_repairing"
+        android:textAlignment="center"
+        android:textColor="#D6EAFA"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
     <ImageView
         android:id="@+id/pipe_img"
         android:layout_width="130dp"

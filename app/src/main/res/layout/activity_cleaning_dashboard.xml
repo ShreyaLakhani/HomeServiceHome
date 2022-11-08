@@ -19,7 +19,7 @@
         android:shadowDx="3"
         android:shadowDy="7"
         android:shadowRadius="12"
-        android:text="@string/cleaning"
+        android:text="@string/Cleaning"
         android:textAlignment="center"
         android:textColor="#D6EAFA"
         android:textSize="27sp"

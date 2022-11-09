@@ -124,6 +124,8 @@
     <string name="landscape_designing">Landscape Designing</string>
     <string name="purning_trimmin"><![CDATA[Purning & Trimming]]></string>
     <string name="water_pipe_repairing">Water Pipe Repairing</string>
+    <string name="requests">Requests</string>
+    <string name="list_of_client_requests">List of Client requests</string>
 
 
 </resources>

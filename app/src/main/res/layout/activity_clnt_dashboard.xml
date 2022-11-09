@@ -34,7 +34,7 @@
         android:layout_height="130dp"
         android:background="@drawable/whitedisplay"
         android:fontFamily="sans-serif"
-        android:text="@string/cleaning"
+        android:text="@string/Cleaning"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="17sp"

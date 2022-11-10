@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvClientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Client Name"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvClientContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client Contact"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tvClientAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client Address"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tvSubName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Sub Service Name"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tvSubRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Sub Service Rate"
+        android:textSize="19sp" />
+
+    <!--<TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19sp" />-->
+
+</LinearLayout>

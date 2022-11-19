@@ -25,7 +25,9 @@ public class DataInsert extends AppCompatActivity {
             public void onClick(View view) {
                 //insertServices();
                 //showServices();
-                insertSubServices();
+                //insertSubServices();
+                //deleteOrders();
+                showOrders();
             }
         });
     }
@@ -92,5 +94,32 @@ public class DataInsert extends AppCompatActivity {
             Toast.makeText(DataInsert.this, "4 Record Inserted", Toast.LENGTH_LONG).show();
         else
             Toast.makeText(DataInsert.this, "Error", Toast.LENGTH_LONG).show();
+    }
+
+    private void deleteOrders()
+    {
+        DBHelper helper = new DBHelper(DataInsert.this, DBHelper.DBNAME, null, 1);
+        SQLiteDatabase db = helper.getWritableDatabase();
+
+        int status = db.delete("orders", null, null);
+        if (status >= 0)
+            Toast.makeText(DataInsert.this, "Orders deleted", Toast.LENGTH_LONG).show();
+    }
+
+    private void showOrders()
+    {
+        DBHelper helper = new DBHelper(DataInsert.this, DBHelper.DBNAME, null, 1);
+        SQLiteDatabase db = helper.getReadableDatabase();
+        Cursor records = db.rawQuery("select * from orders", null);
+        while (records.moveToNext())
+        {
+            Log.d("order_id", records.getString(0));
+            Log.d("client_id", records.getString(1));
+            Log.d("service_id", records.getString(2));
+            Log.d("sub_id", records.getString(3));
+            Log.d("date", records.getString(4));
+            Log.d("time", records.getString(5));
+            Log.d("status", records.getString(6));
+        }
     }
 }

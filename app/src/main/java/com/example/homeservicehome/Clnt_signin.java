@@ -31,7 +31,7 @@ public class Clnt_signin extends AppCompatActivity {
         createacc = findViewById(R.id.createaccount);
         signin = findViewById(R.id.signinbtn);
 
-        SharedPreferences sp = getSharedPreferences("clientCredential", MODE_PRIVATE);
+        /*SharedPreferences sp = getSharedPreferences("clientCredential", MODE_PRIVATE);
         String fetchedEmail = sp.getString("Email", null);
         String fetchedPassword = sp.getString("Password", null);
 
@@ -45,7 +45,7 @@ public class Clnt_signin extends AppCompatActivity {
             Intent intent = new Intent(Clnt_signin.this, Clnt_signin.class);
             startActivity(intent);
             finish();
-        }
+        }*/
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override

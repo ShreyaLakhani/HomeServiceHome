@@ -116,7 +116,7 @@
     <string name="lawn_maintenance">Lawn Maintenance</string>
     <string name="view_cart">View Cart</string>
     <string name="confirm_checkout"><![CDATA[Confirm & Checkout]]></string>
-    <string name="pick_a_time">Pick a time</string>
+    <string name="pick_a_time">Pick a date and time</string>
     <string name="total_services">Total services</string>
     <string name="estimated_amount">Estimated amount</string>
     <string name="opted_services">Opted Services</string>

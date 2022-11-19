@@ -112,7 +112,6 @@
     <string name="switch_and_socket">Switch and Socket</string>
     <string name="Water_Pipe">Water Pipe</string>
     <string name="Motor">Motor</string>
-    <string name="lawn_maintainance">Lawn Maintainance</string>
     <string name="lawn_maintenance">Lawn Maintenance</string>
     <string name="view_cart">View Cart</string>
     <string name="confirm_checkout"><![CDATA[Confirm & Checkout]]></string>
@@ -126,6 +125,8 @@
     <string name="water_pipe_repairing">Water Pipe Repairing</string>
     <string name="requests">Requests</string>
     <string name="list_of_client_requests">List of Client requests</string>
+    <string name="selected_services">Selected Services</string>
+    <string name="confirm">Confirm</string>
 
 
 </resources>

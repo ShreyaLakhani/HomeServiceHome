@@ -35,7 +35,7 @@
         android:id="@+id/light_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="112dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
@@ -48,7 +48,7 @@
         android:id="@+id/lightrepairingtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="112dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/lights_repairing"
         android:textAlignment="center"
@@ -97,9 +97,11 @@
         app:layout_constraintStart_toEndOf="@+id/light_img"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+
     <TextView
         android:layout_width="322dp"
         android:layout_height="146dp"
+        android:layout_marginTop="36dp"
         android:text="@string/point6"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
@@ -107,9 +109,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp"
+        app:layout_constraintTop_toBottomOf="@+id/light_cart"
         tools:ignore="MissingConstraints" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/viewcart"

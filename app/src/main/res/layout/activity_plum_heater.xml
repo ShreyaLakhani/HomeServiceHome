@@ -35,10 +35,10 @@
         android:id="@+id/heater_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="96dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/heater_image"
@@ -48,13 +48,13 @@
         android:id="@+id/heatertxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="96dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/heater"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toEndOf="@+id/heater_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,6 +100,7 @@
         android:id="@+id/textpipe"
         android:layout_width="322dp"
         android:layout_height="146dp"
+        android:layout_marginTop="48dp"
         android:text="@string/point12"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
@@ -107,7 +108,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp"
+        app:layout_constraintTop_toBottomOf="@+id/heater_cart"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatTextView

@@ -35,7 +35,7 @@
         android:id="@+id/sink_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="104dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
@@ -48,13 +48,13 @@
         android:id="@+id/sinktxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="104dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/sink_and_toliet"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toEndOf="@+id/sink_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,15 +99,15 @@
     <TextView
         android:layout_width="322dp"
         android:layout_height="146dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginTop="72dp"
         android:text="@string/point10"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/viewcart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sink_cart" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/viewcart"

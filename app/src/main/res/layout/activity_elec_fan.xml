@@ -35,25 +35,25 @@
         android:id="@+id/fan_img"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="112dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/todo"
         app:srcCompat="@drawable/fan_image" />
 
     <TextView
         android:id="@+id/fanrepairingtxt"
         android:layout_width="202dp"
         android:layout_height="27dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="112dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/fan_repairing"
         android:textColor="@color/purple_500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toEndOf="@+id/fan_img"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,6 +99,7 @@
         android:id="@+id/textkitchen"
         android:layout_width="322dp"
         android:layout_height="146dp"
+        android:layout_marginTop="68dp"
         android:text="@string/point5"
         android:textAlignment="gravity"
         android:textColor="@color/purple_500"
@@ -106,7 +107,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="265dp"
+        app:layout_constraintTop_toBottomOf="@+id/fan_cart"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatTextView

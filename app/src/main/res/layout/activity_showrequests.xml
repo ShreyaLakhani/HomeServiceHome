@@ -18,7 +18,7 @@
         android:shadowDx="3"
         android:shadowDy="7"
         android:shadowRadius="12"
-        android:text="@string/opted_services"
+        android:text="@string/selected_services"
         android:textAlignment="center"
         android:textColor="#D6EAFA"
         android:textSize="27sp"
@@ -33,27 +33,30 @@
         android:id="@+id/servicestxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="20dp"
         android:text="@string/total_services"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/optedservicetxt" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/txtRequests"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:paddingTop="20dp"
-        android:paddingLeft="30dp"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/whitedisplay"
+        android:paddingStart="30dp"
+        android:paddingTop="20dp"
         android:textColor="@color/black"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/servicestxt" />
+        app:layout_constraintTop_toBottomOf="@+id/servicestxt"
+        tools:ignore="RtlSymmetry" />
 
     <Button
         android:id="@+id/btnconfirm"
@@ -61,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
         android:layout_marginTop="72dp"
-        android:text="Confirm"
+        android:text="@string/confirm"
         app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtRequests" />

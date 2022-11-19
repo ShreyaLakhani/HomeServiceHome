@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Cleaning_dashboard extends AppCompatActivity {
     Button bathroom, balcony, room, kitchen,add;
-    TextView tvLabel;
+    TextView cart, tvLabel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,15 @@ public class Cleaning_dashboard extends AppCompatActivity {
                 intent.putExtra("Label", tvLabel.getText().toString());
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        cart = findViewById(R.id.viewcart);
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Cleaning_dashboard.this,Finalcart.class);
+                startActivity(intent);
             }
         });
 

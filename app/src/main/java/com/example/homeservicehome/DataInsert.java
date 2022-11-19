@@ -26,8 +26,8 @@ public class DataInsert extends AppCompatActivity {
                 //insertServices();
                 //showServices();
                 //insertSubServices();
-                //deleteOrders();
-                showOrders();
+                deleteOrders();
+                //showOrders();
             }
         });
     }
